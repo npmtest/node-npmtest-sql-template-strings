@@ -1,6 +1,6 @@
 # npmtest-sql-template-strings
 
-#### test coverage for  [sql-template-strings (v2.2.2)](https://github.com/felixfbecker/node-sql-template-strings#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sql-template-strings.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sql-template-strings) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sql-template-strings.svg)](https://travis-ci.org/npmtest/node-npmtest-sql-template-strings)
+#### basic test coverage for  [sql-template-strings (v2.2.2)](https://github.com/felixfbecker/node-sql-template-strings#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sql-template-strings.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sql-template-strings) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sql-template-strings.svg)](https://travis-ci.org/npmtest/node-npmtest-sql-template-strings)
 
 #### ES6 tagged template strings for prepared statements with mysql and postgres
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sql-template-strings/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sql-template-strings/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sql-template-strings/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sql-template-strings/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sql-template-strings/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sql-template-strings/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sql-template-strings/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sql-template-strings/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sql-template-strings/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sql-template-strings/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sql-template-strings/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sql-template-strings/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "typedoc": "typedoc --module es2015 --target es2015 --includeDeclarations --mode file --readme none --out typedoc index.d.ts"
     },
     "typings": "index.d.ts",
-    "version": "2.2.2"
+    "version": "2.2.2",
+    "bin": {}
 }
 ```
 
